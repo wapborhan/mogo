@@ -143,10 +143,7 @@ export default function Footer() {
         <div className="row credits-main">
           <div className="col-lg-12 text-center credit">
             <h2>
-              © 2016 MoGo free PSD template by <span>Laaqiq</span>
-            </h2>
-            <h1 className="animate__animated animate__rollIn text-center">
-              Design By{" "}
+              © 2016 MoGo. Design By{" "}
               <a
                 className="linksl kukuri"
                 href="http://www.facebook.com/borhan.biswas/"
@@ -155,7 +152,7 @@ export default function Footer() {
                 Borhan Uddin
                 <i className="fas fa-heart"></i>
               </a>
-            </h1>
+            </h2>
           </div>
         </div>
       </div>

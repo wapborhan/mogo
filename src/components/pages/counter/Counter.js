@@ -9,14 +9,20 @@ export default function Counter() {
         <div className="d-flex justify-content-around">
           <div className="counter">
             <h2 className="timer count-title count-number">
-              <CountUp end={42} duration={5} />
+              <VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
+                {({ isVisible }) => (
+                  <div style={{ height: 100 }}>
+                    {isVisible ? <CountUp end={42} duration={5} /> : null}
+                  </div>
+                )}
+              </VisibilitySensor>
             </h2>
             <p className="count-text ">Web Design Projects</p>
           </div>
 
           <div className="counter">
             <h2 className="timer count-title count-number">
-              <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+              <VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
                 {({ isVisible }) => (
                   <div style={{ height: 100 }}>
                     {isVisible ? <CountUp end={36} duration={5} /> : null}
@@ -29,7 +35,7 @@ export default function Counter() {
 
           <div className="counter">
             <h2 className="timer count-title count-number">
-              <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+              <VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
                 {({ isVisible }) => (
                   <div style={{ height: 100 }}>
                     {isVisible ? <CountUp end={15} duration={5} /> : null}
@@ -42,7 +48,7 @@ export default function Counter() {
 
           <div className="counter">
             <h2 className="timer count-title count-number">
-              <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+              <VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
                 {({ isVisible }) => (
                   <div style={{ height: 100 }}>
                     {isVisible ? <CountUp end={99} duration={5} /> : null}
@@ -55,7 +61,7 @@ export default function Counter() {
 
           <div className="counter">
             <h2 className="timer count-title count-number">
-              <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+              <VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
                 {({ isVisible }) => (
                   <div style={{ height: 100 }}>
                     {isVisible ? (

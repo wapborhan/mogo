@@ -20,7 +20,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(rgba(243, 133, 129, 0.90), rgba(252, 227, 138, 0.90));
+  background: linear-gradient(rgba(243, 133, 129, 0.7), rgba(251, 226, 138, 0.7));
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -351,13 +351,14 @@ h6 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
+  z-index: 1;
 }
 
 .unique {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(rgba(217, 217, 217, 0.9), rgba(255, 255, 255, 0.85));
+  background: linear-gradient(rgba(217, 217, 217, 0.7), rgba(255, 255, 255, 0.55));
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -707,6 +708,10 @@ h6 {
 
 
 /*Teams Part Start*/
+#teams {
+  margin-bottom: 60px;
+}
+
 .team-head h2 {
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
@@ -768,17 +773,22 @@ h6 {
 }
 
 .team-social ul li a {
-  font-size: 30px;
+  font-size: 25px;
   color: #f38181;
+  line-height: 45px;
+  height: 100%;
+  width: 100%;
 }
+
 
 .team-social ul li:hover {
   background: #f38181;
   color: #ffffff;
 }
 
-.team-social ul li a:hover {
+.team-social ul li:hover a {
   color: #ffffff;
+
 }
 
 .team-content h2 {
@@ -886,6 +896,8 @@ h6 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
+  z-index: 1;
+  padding: 0 0 90px 0;
 }
 
 .happy-clients-head h2 {
@@ -894,7 +906,9 @@ h6 {
   font-weight: 400;
   color: #333333;
   /*    padding: 30px;*/
-  padding-top: 100px;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  position: relative;
 }
 
 .happy-clients-head h5 {
@@ -904,16 +918,19 @@ h6 {
   font-weight: 700;
   padding-bottom: 80px;
   text-transform: uppercase;
+
+
 }
 
-.happy-clients-head h5::after {
+.happy-clients-head h2::after {
   position: absolute;
   content: '';
-  top: 75%;
+  top: 80%;
   left: 50%;
-  height: 3px;
+  height: 5px;
+  border-radius: 3px;
   background: #f38181;
-  width: 60px;
+  width: 100px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
@@ -937,22 +954,23 @@ h6 {
 .happy-clients-iteam-content h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  color: #333333;
+  color: #1a1a1a;
   text-transform: uppercase;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  position: relative;
 }
 
 .happy-clients-iteam-content h5 {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  color: #999999;
+  color: #222222;
 }
 
-.happy-clients-iteam-content h5::after {
+.happy-clients-iteam-content h2::after {
   position: absolute;
   content: '';
-  top: 40%;
-  left: 33%;
+  top: 75%;
+  left: 7%;
   height: 3px;
   background: #f38181;
   width: 60px;
@@ -963,8 +981,8 @@ h6 {
 .happy-clients-iteam-content p {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  color: #999999;
-  padding: 50px 30px 0 0;
+  color: #202020;
+  padding: 20px 30px 0 0;
 }
 
 .happy-2nd {
@@ -1282,7 +1300,7 @@ h6 {
   position: relative;
   /*    font-size: 8em;*/
   line-height: 1;
-  color: #9e9ba4;
+  color: #222222;
   display: inline-block;
 }
 
@@ -1292,11 +1310,11 @@ h6 {
   font-weight: 900;
   overflow: hidden;
   line-height: 0.75;
-  color: #b2b0a9;
+  color: #ff1010;
 }
 
 .kukuri:hover {
-  color: #b2b0a9;
+  color: #00a316;
 }
 
 .kukuri::after {
@@ -1307,7 +1325,7 @@ h6 {
   top: 50%;
   margin-top: -8px;
   right: 0;
-  background: #f9f9f9;
+  background: #ed23ff;
   transform: translate3d(-100%, 0, 0);
   transition: transform 0.4s;
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);

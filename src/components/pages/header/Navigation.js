@@ -12,7 +12,8 @@ import {
 export default function Navigation() {
   return (
     <div className="main-head">
-      <Navbar color="warning" container dark expand="md" fixed="top" light>
+      {/* fixed="top" */}
+      <Navbar color="transparent" container dark expand="md" light>
         <NavbarBrand href="/">
           <img src="images/logo.png" alt="" />
         </NavbarBrand>

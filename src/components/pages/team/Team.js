@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaPinterestSquare,
+  FaGithubSquare,
+} from "react-icons/fa";
 
 export default function Team() {
   return (
@@ -26,22 +32,22 @@ export default function Team() {
                     <ul>
                       <li>
                         <a href="">
-                          <i className="fab fa-facebook-f"></i>
+                          <FaFacebookSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-twitter"></i>
+                          <FaTwitterSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-pinterest-p"></i>
+                          <FaPinterestSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-instagram"></i>
+                          <FaGithubSquare />
                         </a>
                       </li>
                     </ul>
@@ -63,22 +69,22 @@ export default function Team() {
                     <ul>
                       <li>
                         <a href="">
-                          <i className="fab fa-facebook-f"></i>
+                          <FaFacebookSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-twitter"></i>
+                          <FaTwitterSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-pinterest-p"></i>
+                          <FaPinterestSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-instagram"></i>
+                          <FaGithubSquare />
                         </a>
                       </li>
                     </ul>
@@ -100,22 +106,22 @@ export default function Team() {
                     <ul>
                       <li>
                         <a href="">
-                          <i className="fab fa-facebook-f"></i>
+                          <FaFacebookSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-twitter"></i>
+                          <FaTwitterSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-pinterest-p"></i>
+                          <FaPinterestSquare />
                         </a>
                       </li>
                       <li>
                         <a href="">
-                          <i className="fab fa-instagram"></i>
+                          <FaGithubSquare />
                         </a>
                       </li>
                     </ul>

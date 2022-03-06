@@ -2,7 +2,12 @@ import React from "react";
 
 export default function HappyClients() {
   return (
-    <section id="happy-clients">
+    <section
+      id="happy-clients"
+      style={{
+        backgroundImage: `url("images/happy-clients-bg.jpg")`,
+      }}
+    >
       <div className="unique"></div>
       <div className="container">
         <div className="row happy-clients-head text-center">

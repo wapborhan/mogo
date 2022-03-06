@@ -2,7 +2,12 @@ import React from "react";
 
 export default function Design() {
   return (
-    <section id="unique">
+    <section
+      id="unique"
+      style={{
+        backgroundImage: `url("images/unique-bg.jpg")`,
+      }}
+    >
       <div className="unique"></div>
       <div className="container">
         <div className="row unique-head text-center">
