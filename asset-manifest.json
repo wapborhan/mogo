@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mogo/static/css/main.f02573af.css",
+    "main.js": "/mogo/static/js/main.33b2b1c4.js",
+    "static/js/787.009ae9f5.chunk.js": "/mogo/static/js/787.009ae9f5.chunk.js",
+    "index.html": "/mogo/index.html",
+    "main.f02573af.css.map": "/mogo/static/css/main.f02573af.css.map",
+    "main.33b2b1c4.js.map": "/mogo/static/js/main.33b2b1c4.js.map",
+    "787.009ae9f5.chunk.js.map": "/mogo/static/js/787.009ae9f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f02573af.css",
+    "static/js/main.33b2b1c4.js"
+  ]
+}
