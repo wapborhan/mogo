@@ -8,7 +8,7 @@ import ServicesDesc from "./pages/services-des/ServicesDesc";
 import Team from "./pages/team/Team";
 import MyClients from "./pages/myclients/MyClients";
 import Story from "./pages/story/Story";
-import Testimonials from "./pages/testimonials/Testimonials";
+// import Testimonials from "./pages/testimonials/Testimonials";
 import HappyClients from "./pages/happyclients/HappyClients";
 import Blog from "./pages/blog/Blog";
 import Map from "./pages/map/Map";
@@ -26,7 +26,7 @@ export default function MainComponent() {
       <Team />
       <MyClients />
       <Story />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <HappyClients />
       <Blog />
       <Map />
