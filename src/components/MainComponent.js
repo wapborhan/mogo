@@ -9,6 +9,10 @@ import Team from "./pages/team/Team";
 import MyClients from "./pages/myclients/MyClients";
 import Story from "./pages/story/Story";
 import Testimonials from "./pages/testimonials/Testimonials";
+import HappyClients from "./pages/happyclients/HappyClients";
+import Blog from "./pages/blog/Blog";
+import Map from "./pages/map/Map";
+import Footer from "./pages/footer/Footer";
 
 export default function MainComponent() {
   return (
@@ -23,6 +27,10 @@ export default function MainComponent() {
       <MyClients />
       <Story />
       <Testimonials />
+      <HappyClients />
+      <Blog />
+      <Map />
+      <Footer />
     </div>
   );
 }
