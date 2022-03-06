@@ -61,7 +61,7 @@ nav.main-menu ul li a:hover {
 }
 
 .head-content h2 {
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 30px;
   font-family: 'Kaushan Script', cursive;
   font-size: 72px;
@@ -72,7 +72,7 @@ nav.main-menu ul li a:hover {
 .head-content h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 150px;
+  font-size: 100px;
   color: #ffffff;
   font-weight: 700;
 
@@ -87,7 +87,7 @@ h6 {
 }
 
 .head-foot {
-  padding-top: 155px;
+  padding-top: 115px;
   padding-bottom: 25px;
 }
 
