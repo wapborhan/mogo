@@ -4,6 +4,11 @@ import About from "./pages/about/About";
 import Counter from "./pages/counter/Counter";
 import Services from "./pages/services/Services";
 import Design from "./pages/design/Design";
+import ServicesDesc from "./pages/services-des/ServicesDesc";
+import Team from "./pages/team/Team";
+import MyClients from "./pages/myclients/MyClients";
+import Story from "./pages/story/Story";
+import Testimonials from "./pages/testimonials/Testimonials";
 
 export default function MainComponent() {
   return (
@@ -13,6 +18,11 @@ export default function MainComponent() {
       <Counter />
       <Services />
       <Design />
+      <ServicesDesc />
+      <Team />
+      <MyClients />
+      <Story />
+      <Testimonials />
     </div>
   );
 }
